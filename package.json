@@ -6,6 +6,7 @@
   "engines": {
     "node": "22.0"
   },
+  "type": "module",
   "scripts": {
     "build": "tsc",
     "dev": "nodemon -e ts,json,mustache src/server.ts",
