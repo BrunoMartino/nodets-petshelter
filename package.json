@@ -4,7 +4,7 @@
   "description": "",
   "main": "./dist/server.js",
   "engines": {
-    "node": "22.0"
+    "node": "22.x"
   },
   "scripts": {
     "dev": " nodemon -e ts,json,mustache src/server.ts",
