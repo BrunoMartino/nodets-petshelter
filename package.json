@@ -7,10 +7,9 @@
     "node": "22.0"
   },
   "scripts": {
-    "tsc": "tsc",
     "dev": " nodemon -e ts,json,mustache src/server.ts",
     "start": "node dist/server.js",
-    "postinstall": "npm run tsc && copyfiles -u 1 src/**/*.mustache dist/"
+    "postinstall": " tsc && copyfiles -u 1 src/**/*.mustache dist/"
   },
   "author": "",
   "license": "ISC",
